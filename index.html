@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+        <title> NBA Highlight Reel</title>
+        <link href="mystyles.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body class="backg">
+      <h1 class="middle  backred hm black"><img class="introimgtall" src="nbalogo.png" alt="NBA logo" ;> HIGHLIGHT REEL</h1>
+      <div class="topnav" id="myTopnav">
+        <a href="https://www.skysports.com/nba?gr=www" class="active">NBA Website</a>
+        <a href="#news">Teams</a>
+        <a href="#contact">Playoffs</a>
+        <div class="dropdown">
+          <button class="dropbtn">Season
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">2022-2023</a>
+            <a href="#">2021-2022</a>
+            <a href="#">2020-2021</a>
+          </div>
+        </div> 
+        <a href="About.html">About</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+      
+      <div style="padding-left:16px">
+        
+      </div>
+      
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+      <form>
+          <p class="red round4 font txt ">Search all NBA player highlights</p>
+          <input type="text" id="fname">
+      </form>
+
+      
+      
+      </body>
+      </html>    
+
+    
+    <div class="container text-center">
+        <h3 class=" txt middle round4">Top 100 highlights last season</h3>
+        <iframe width="500" height="300" src="https://youtube.com/embed/dxbVdyVYGcQ?feature" allowfullscreen></iframe>
+        <p class="red round3 txt"><strong>Top Players This season</strong></p>
+        <br>
+        <div class="row">
+          <div class="col-sm-4">
+            <p class="round3 txt"><strong>Steph Curry</strong></p><br>
+            <a  href="StephCurry.html"><img class="pfp" src="201939.webp" alt="StephCurry"  ></a>
+          </div>
+          <div class="col-sm-4">
+            <p class="round3 txt"><strong>Lebron James</strong></p><br>
+            <a href="Lebron.html"><img class="pfp" src="2544.webp" alt="Lebron"  ></a>
+          </div>
+          <div class="col-sm-4">
+            <p class="round3 txt"><strong>Giannis </strong></p><br>
+            <a  href="Giannis.html"><img  class="pfp" src="203507.webp" alt="Giannis" ></a>
+          </div>
+        </div>
+      </div>
+</html>

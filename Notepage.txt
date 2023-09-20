@@ -1,0 +1,42 @@
+<h1 class="middle  backred hm black"><img class="introimgtall" src="nbalogo.png" alt="NBA logo" ;> HIGHLIGHT REEL</h1>
+        <div class="topnav" id="myTopnav">
+          <a href="https://www.skysports.com/nba?gr=www" class="active">NBA Website</a>
+          <a href="#news">Teams</a>
+          <a href="#contact">Playoffs</a>
+          <div class="dropdown">
+            <button class="dropbtn">Season
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">2022-2023</a>
+              <a href="#">2021-2022</a>
+              <a href="#">2020-2021</a>
+            </div>
+          </div> 
+          <a href="About.html">About</a>
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        
+        <div style="padding-left:16px">
+          
+        </div>
+        
+        <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+        <form>
+            <p class="red round4 font txt ">Search all NBA player highlights</p>
+            <input type="text" id="fname">
+        </form>
+
+        
+        
+        </body>
+        </html>
